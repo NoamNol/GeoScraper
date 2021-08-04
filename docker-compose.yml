@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  geoscraper:
+    image: geoscraper
+    build:
+      context: .
+      dockerfile: ./Dockerfile
